@@ -19,15 +19,14 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ocean" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="ocean" />
   <project path="external/DUtils" name="android_external_DUtils" remote="ocean"/>
-  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="ocean"/>
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="ocean"/>
   <project path="system/core" name="system_core" remote="ocean" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="ocean" />
-  <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="ocean" />
+  <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="ocean" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ocean" />
   <project name="android_packages_overlays_ocean" path="packages/overlays/ocean" remote="ocean" />
-  <!-- OmniRom additions -->
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ocean" />
-  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ocean" />
+  <project name="android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ocean" />
 
   <project path="device/ocean/sepolicy" name="device_ocean_sepolicy" remote="ocean" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ocean" />

@@ -1,0 +1,16 @@
+OceanOS
+===========
+
+Getting Started
+---------------
+
+To get started with OceanOS, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+    repo init -u git://github.com/OceanOS/android_manifest.git -b oreo
+
+Then to sync up:
+
+    repo sync --no-clone-bundle --force-sync --no-tags -c -j 16
